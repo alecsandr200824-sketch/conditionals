@@ -68,7 +68,8 @@ int main() {
                 system("cls");
                 continue;
             }
-            else {
+            else 
+            {
                 int a = n / 1000;
                 int b = (n / 100) % 10;
                 int c = (n / 10) % 10;
@@ -94,7 +95,8 @@ int main() {
         int x, maxVal;
         std::cin >> maxVal;
 
-        for (int i = 1; i < 7; i++) {
+        for (int i = 1; i < 7; i++) 
+        {
             std::cin >> x;
             if (x > maxVal)
                 maxVal = x;
